@@ -8,9 +8,9 @@ Wants=network-online.target
 
 [Service]
 StandardOutput=null
-WorkingDirectory=/opt/HBMonv2
+WorkingDirectory=/opt/LinkIT_Dash
 RestartSec=3
-ExecStart=/usr/bin/python3 /opt/HBMonv2/monitor.py
+ExecStart=/usr/bin/python3 /opt/LinkIT_Dash/monitor.py
 Restart=on-abort
 
 [Install]
